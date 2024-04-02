@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Estadistica extends Model
 {
+    protected $table = 'estadisticas';
     use HasFactory;
 }
